@@ -2,11 +2,14 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2019/04/15 19:23:28.000.032,=C:\Users\Teste\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>2019/04/15 19:25:12.000.780,C:\Users\Teste\Documents\Embarcadero\Studio\Projects\Unit4.fmx=C:\Delphi\PostoCombustivel\U_Posto.fmx</Transaction>
-    <Transaction>2019/04/15 19:25:12.000.780,C:\Users\Teste\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Delphi\PostoCombustivel\U_Posto.pas</Transaction>
-    <Transaction>2019/04/15 19:25:25.000.140,C:\Users\Teste\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Delphi\PostoCombustivel\Posto.dproj</Transaction>
+    <Transaction>2019/04/15 19:25:12.000.780,C:\Delphi\PostoCombustivel\U_Posto.pas=C:\Users\Teste\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2019/04/15 19:25:12.000.780,C:\Delphi\PostoCombustivel\U_Posto.fmx=C:\Users\Teste\Documents\Embarcadero\Studio\Projects\Unit4.fmx</Transaction>
+    <Transaction>2019/04/15 19:25:25.000.140,C:\Delphi\PostoCombustivel\Posto.dproj=C:\Users\Teste\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2019/04/22 20:37:48.889,=C:\Delphi\PostoCombustivel\Unit1.pas</Transaction>
+    <Transaction>2019/04/22 20:39:39.898,C:\Delphi\PostoCombustivel\U_Login.fmx=C:\Delphi\PostoCombustivel\Unit1.fmx</Transaction>
+    <Transaction>2019/04/22 20:39:39.898,C:\Delphi\PostoCombustivel\U_Login.pas=C:\Delphi\PostoCombustivel\Unit1.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile iOSSimulator="iPhone5"/>
+		<NoProfile iOSSimulator="iPhone5" Android="546b96617d27"/>
 	</ActiveMobileDevice>
 </BorlandProject>
