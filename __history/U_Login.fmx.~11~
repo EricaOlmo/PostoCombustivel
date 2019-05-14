@@ -1,0 +1,86 @@
+object F_Login: TF_Login
+  Left = 0
+  Top = 0
+  Caption = 'F_Login'
+  ClientHeight = 450
+  ClientWidth = 314
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  ShowHint = False
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 314.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TintColor = claBlack
+    object TLabel
+      StyledSettings = []
+      Position.X = 128.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Comic Sans MS'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Login'
+    end
+  end
+  object Label1: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 120.000000000000000000
+    Position.Y = 136.000000000000000000
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Login'
+  end
+  object Label2: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 112.000000000000000000
+    Position.Y = 240.000000000000000000
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Senha'
+  end
+  object edit_Login: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 80.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edit_Senha: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 80.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object bnt_entrar: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Entrar'
+  end
+  object btn_cadastrar: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Fazer Cadastro'
+  end
+end

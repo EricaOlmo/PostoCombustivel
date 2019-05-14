@@ -1,0 +1,16 @@
+program Posto;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  U_CadLogin in 'U_CadLogin.pas' {F_CadLogin},
+  U_Login in 'U_Login.pas' {F_Login};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TF_Login, F_Login);
+  Application.CreateForm(TF_CadLogin, F_CadLogin);
+  Application.Run;
+end.
